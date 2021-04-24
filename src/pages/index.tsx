@@ -13,7 +13,6 @@ type Episode = {
   id: string;
   title: string;
   thumbnail: string;
-  description: string;
   members: string;
   duration: number;
   durationAsString: string;
@@ -121,17 +120,18 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   })
 
-  const episodes = data.map(episode => ({
-    id: episode.id,
-    title: episode.title,
-    thumbnail: episode.thumbnail,
-    members: episode.members,
-    publishedAt: format(parseISO(episode.published_at), 'd-MMM-yy'),
-    duration: Number(episode.file.duration),
-    durationAsString: convertDurationToTimeString(Number(episode.file.duration)),
-    description: episode.description,
-    url: episode.file.url,
-  }))
+  const episodes = data.map(episode => {
+    return {
+      id: episode.id,
+      title: episode.title,
+      thumbnail: episode.thumbnail,
+      members: episode.members,
+      publishedAt: format(parseISO(episode.published_at), 'd-MMM-yy'),
+      duration: Number(episode.file.duration),
+      durationAsString: convertDurationToTimeString(Number(episode.file.duration)),
+      url: episode.file.url,
+    };
+  })
 
   const latestEpisodes = episodes.slice(0, 2);
   const allEpisodes = episodes.slice(2, episodes.lenght);
