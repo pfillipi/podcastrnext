@@ -90,6 +90,45 @@
         "type": "audio/x-m4a",
         "duration": 2917
       }
+    },
+    {
+      "id": "communities-and-technology",
+      "title": "DevSpeak #23 | What do communities have to do with technology?",
+      "members": "Diego Fernandes, Isabela Castilho and João Inácio",
+      "published_at": "2020-10-16 13:00:00",
+      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
+      "description": "<p>We spend most of our time writing code. Now it's time to talk about it. Every week we gather three tech professionals to discuss everything that circulates in the programming orbit.</p><p>DevSpeak is an original Rocketseat podcast where we talk about several subjects that matter to your dev career.</p><p>In this first episode of the new season, Diego Fernandes joins Isabela Castilho and João Inácio Neto (Biro) to discuss about communities and the impact they have on the career of devs looking for the next level. After all, what is a community and what does it have to do with technology?</p><p>Audio in Brazilian Portuguese.</p>",
+      "file": {
+        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
+        "type": "audio/x-m4a",
+        "duration": 2677
+      }
+    },
+    {
+      "id": "is-it-worth-typescript",
+      "title": "DevSpeak #22 | Is TypeScript worth it? Does JavaScript lose its meaning?",
+      "members": "Diego Fernandes, Mayk Brito and João Pedro",
+      "published_at": "2020-05-04 14:49:35",
+      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
+      "description": "<p>Three programmers talk about TypeScript.</p><p>We discuss the usability and predictions of the language in the programming landscape.</p><p>We spend most of our time writing code. Now it's time to talk about it.</p><p>Audio in Brazilian Portuguese.</p>",
+      "file": {
+        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
+        "type": "audio/x-m4a",
+        "duration": 1772
+      }
+    },
+    {
+      "id": "jwt-oauth-authentication-strategies",
+      "title": "DevSpeak #21 | Authentication strategies, JWT, OAuth, which to use?",
+      "members": "Diego Fernandes, Higo Ribeiro and Guilherme Pellizzetti",
+      "published_at": "2020-04-09 20:00:00",
+      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
+      "description": "<p>Three programmers talk about authentication strategy.</p><p>Let's discuss what aspects you should consider when making your choice.</p><p>We spend most of our time writing code. Now it's time to talk about it.</p><p>Audio in Brazilian Portuguese.</p>",
+      "file": {
+        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
+        "type": "audio/x-m4a",
+        "duration": 1463
+      }
     }
   ]
 }
