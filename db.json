@@ -90,19 +90,6 @@
         "type": "audio/x-m4a",
         "duration": 2917
       }
-    },
-    {
-      "id": "communities-and-technology",
-      "title": "DevSpeak #23 | What do communities have to do with technology?",
-      "members": "Diego Fernandes, Isabela Castilho and João Inácio",
-      "published_at": "2020-10-16 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
-      "description": "<p>We spend most of our time writing code. Now it's time to talk about it. Every week we gather three tech professionals to discuss everything that circulates in the programming orbit.</p><p>DevSpeak is an original Rocketseat podcast where we talk about several subjects that matter to your dev career.</p><p>In this first episode of the new season, Diego Fernandes joins Isabela Castilho and João Inácio Neto (Biro) to discuss about communities and the impact they have on the career of devs looking for the next level. After all, what is a community and what does it have to do with technology?</p><p>Audio in Brazilian Portuguese.</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2677
-      }
     }
   ]
 }
